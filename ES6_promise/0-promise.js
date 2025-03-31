@@ -3,9 +3,9 @@ export default function getResponseFromAPI() {
     const succes = true;
 
     if (succes) {
-    resolve('true');
+      resolve('true');
     } else {
-      reject('false');
+      reject(Error);
     }
   });
 }
