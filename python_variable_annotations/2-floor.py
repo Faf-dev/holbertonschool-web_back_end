@@ -1,4 +1,8 @@
 #!/usr/bin/env python3
+"""
+Return the largest integer less than or equal to n.
+"""
+
 
 def floor(n: float) -> int:
     """
