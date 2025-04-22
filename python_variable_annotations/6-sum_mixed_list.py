@@ -3,10 +3,10 @@
 Write a type-annotated function sum_mixed_list that takes a list mxd_lst of
 integers and floats and returns their sum as a float.
 """
-from typing import Union
+from typing import List
 
 
-def sum_mixed_list(mxd_lst: Union[float | int]) -> float:
+def sum_mixed_list(mxd_lst: List[float | int]) -> float:
     """
     Function to sum a list of integers and floats
     Args:
