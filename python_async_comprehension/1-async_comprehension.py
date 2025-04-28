@@ -8,7 +8,7 @@ import asyncio
 async_generator = __import__('0-async_generator').async_generator
 
 
-async def async_comprehension():
+async def async_comprehension() -> list:
     """
     Collects 10 random numbers using async_generator,
     then returns the 10 random numbers.
