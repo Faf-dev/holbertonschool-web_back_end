@@ -40,6 +40,8 @@ class Server:
         return self.__indexed_dataset
 
     def get_hyper_index(self, index: int = None, page_size: int = 10) -> Dict:
+        """Return a dictionary containing the page information
+        """
         assert isinstance(index, int) and index >= 0
         assert index < len(self.dataset())
         data: list = []
